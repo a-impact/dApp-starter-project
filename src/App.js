@@ -15,7 +15,7 @@ const App = () => {
   const [allWaves, setAllWaves] = useState([]);
   console.log("currentAccount: ", currentAccount);
   /* デプロイされたコントラクトのアドレスを保持する変数を作成 */
-  const contractAddress = "0xdcEb9615D35937601b643AC7F76bd303eC9EFfD4";
+  const contractAddress = "0x7bEC3Bb89a35b3A33d9b8791cDD59E80a2eFA635";
   /* コントラクトからすべてのwavesを取得するメソッドを作成 */
   /* ABIの内容を参照する変数を作成 */
   const contractABI = abi.abi;
